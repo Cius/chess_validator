@@ -10,6 +10,6 @@ public class Pawn extends Piece {
     @Override
     public boolean isValidMovement(Position start, Position end) {
         boolean res = isVertical(start, end) || (isDiagonal(start, end) && isCapturing(end));
-        return res && isForward(start, end);
+        return res && isForward(start, end) && distance(start, end, 1) == 1;
     }
 }
