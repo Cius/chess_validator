@@ -9,9 +9,7 @@ public class Piece {
         this.type = "";
     }
 
-    public boolean isValidMovement(Position start, Position end) {
-        return false;
-    }
+    public abstract boolean isValidMovement(Position start, Position end);
 
     public boolean isHorizontal(Position start, Position end) {
         return start.row == end.row;
