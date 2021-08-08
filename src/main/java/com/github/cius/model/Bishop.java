@@ -1,4 +1,4 @@
-package model;
+package com.github.cius.model;
 
 public class Bishop extends Piece {
     public Bishop(String color) {
