@@ -1,4 +1,4 @@
-import model.Board;
+package com.github.cius;
 
 public class App {
     public static void main(String[] args) throws Exception {
