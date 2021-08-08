@@ -1,4 +1,4 @@
-package model;
+package com.github.cius.model;
 
 public class Position {
     public int col;
