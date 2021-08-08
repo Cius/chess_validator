@@ -9,7 +9,7 @@ public class Knight extends Piece {
 
     @Override
     public boolean isValidMovement(Position start, Position end) {
-        return (Math.abs(distance(start, end, 0)) == 2 && Math.abs(distance(start, end, 1) == 1))
-            || (Math.abs(distance(start, end, 0)) == 1 && Math.abs(distance(start, end, 1) == 2));
+        return (Math.abs(distance(start, end, 0)) == 2 && Math.abs(distance(start, end, 1)) == 1)
+            || (Math.abs(distance(start, end, 0)) == 1 && Math.abs(distance(start, end, 1)) == 2);
     }
 }

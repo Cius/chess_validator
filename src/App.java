@@ -7,7 +7,7 @@ public class App {
         System.out.println(b);
 
         String move = "e2 e4";
-        b.movePiece(move);
+        b.movePiece(movement);
         System.out.println(b);
     }
 }
